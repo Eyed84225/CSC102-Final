@@ -1,0 +1,34 @@
+<!-- Taren Miller -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>The Index Page</Title>
+</head>
+<style>
+    .container {
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Set the height of the container */
+}
+
+#meme {
+    position: absolute;
+    bottom: 0; /* Start at the bottom of the container */
+}
+</style>
+<h1>The Beginning</h1>
+<a href="Final Pro.html">Back to the landing Page</a>
+<body>
+    <div class="container"> 
+        <img src="Meme.jpg" id="meme" alt="My Meme" width="200" height="200">
+    </div>
+    <button type="button" onclick="bounce(), playSound()" id="start">Start</button> 
+    <!-- Runs both the function and the audio -->
+    <button type="button" id="stop">Stop</button>
+    <script src="indexcode.js"></script> <br>
+    <audio src="Cartoon Bounce Sound Effect.mp3" controls></audio>
+</body>
+</html>
+ 

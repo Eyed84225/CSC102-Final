@@ -1,0 +1,62 @@
+<!-- Taren Miller -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bringing it all together</title>
+    <link rel="stylesheet" href="BIAT.css">
+ </head>
+<body>
+    <a href="Final Pro.html">Back to the landing Page</a>
+<h1>Test Bed Website</h1>
+    <form id="registrationForm" onsubmit="validateform()">
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username"><br><br>
+<!-- Input area for username -->
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br><br>
+<!-- Input area for a Password -->
+        <label for="confirmpassword">Confirm Password</label><br>
+        <input type="password" id="confirmpassword" name="confirmpassword"><br><br>
+<!-- Input area for a Password -->
+        <input type="submit" value="Submit">
+    </form>
+<br>
+
+<p id="string">Hi, this page is for a project for CSC 102</p>
+<button onclick="changethewords()">Change The Sentence</button>
+
+<p>Do you like Pizza?</p><br>
+<p id="anwser"></p>
+<input type="text" id="response">
+<button onclick="decision()">Submit</button>
+
+<div class="container"> 
+    <img src="Meme.jpg" id="meme" alt="My Meme" width="200" height="200">
+</div>
+<button type="button" onclick="bounce()" id="start">Start</button> 
+<button type="button" id="stop">Stop</button>
+<br><br>
+<!-- Table to show the difference between Graphics Cards -->
+<table>
+    <tr>
+        <th>GPU</th><th>Vram</th><th>Price</th>
+    </tr>
+    <tr>
+        <td>RTX 4060</td><td>8 Gigabits</td><td>$299.99</td>
+    </tr>
+    <tr>
+        <td>RTX 4070</td><td>12 Gigabits</td><td>$499.99</td>
+    </tr>
+    <tr>
+        <td>RTX 4090</td><td>24 Gigabits</td><td>$1599.99</td>
+    </tr>
+    <tr>
+        <td>RTX 5090</td><td>32 Gigabits</td><td>$2499.99</td>
+    </tr>
+</table>
+
+<script src="BAIT.js"></script>
+</body>
+</html>

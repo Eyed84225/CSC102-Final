@@ -1,0 +1,19 @@
+body{
+    background-color: pink;
+    color:rgb(32, 51, 219) ;
+    text-align: center;
+
+}
+nav{
+    padding: 5px;
+}
+footer{
+    text-align: center;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
+header{
+    text-align: center;
+}

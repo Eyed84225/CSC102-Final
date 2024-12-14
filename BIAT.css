@@ -1,0 +1,39 @@
+.container{
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Set the height of the container */
+}
+
+#meme{
+    position: absolute;
+    bottom: 0; /* Start at the bottom of the container */
+}
+/* Actual Styling */
+body{
+    background-color: rgb(212, 221, 245);
+}
+
+form{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+table{
+    border: 1px solid black;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+th{
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    background-color:  rgb(133, 139, 156);
+}
+td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding: 3px;
+}

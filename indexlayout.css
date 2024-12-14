@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Set the height of the container */
+}
+
+#meme {
+    position: absolute;
+    bottom: 0; /* Start at the bottom of the container */
+}

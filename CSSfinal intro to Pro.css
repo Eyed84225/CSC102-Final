@@ -1,0 +1,11 @@
+body{
+    background-color: rgb(174, 174, 174);
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+img{
+    height: 200px;
+    width: 300px;
+}
